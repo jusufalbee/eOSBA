@@ -21,10 +21,57 @@
             font-size: large;
             font-weight: bold;
         }
+
+        .keseluruhan {
+          animation-name: fadeIn;
+          animation-duration: 1s;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+
+        .card-img-top {
+          opacity: 50%;
+        }
+
+        .card-img-top:hover {
+          opacity: 100%;
+          transition: opacity 1s;
+        }
+        
+        .logozoomin1 {
+          transition: transform .2s;
+
+        }
+
+        .logozoomin1:hover {
+          transform: scale(1.2);
+        }
+       
+        .col-md-6 {
+          transition: transform .6s;
+        }
+
+        .col-md-6:hover {
+          transform: scale(1.1);
+          border-color: aquamarine;
+        }
+        
+        .OSPirations {
+          transition: transform .6s;
+        }
+
+        .OSPirations:hover {
+          transform: scale(1.1);
+          border-color: aquamarine;
+        }
+        
         
     </style>
 </head>
-<body>
+<body class="keseluruhan">
     
   
 
@@ -69,9 +116,9 @@
 
 
 
-      
 
 
+    
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -111,66 +158,118 @@
         </button>
       </div>
 
+      
 
-
+      <div class="container py-4">
+        
 
       <div class="px-4 pt-5 my-5 text-center border-bottom" id="Purposes">
-        <h1 class="display-4 fw-bold text-body-emphasis">Our Purp<img src="images/logo osba.png" alt="" height="40px" style="padding: left 2px;;">se</h1>
+        <h1 class="display-4 fw-bold text-body-emphasis">Our Purpose<i class="bi bi-bullseye"></i> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bullseye" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          <path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10m0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
+          <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8"/>
+          <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+        </svg></h1>
         <br>
+
+        
+
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Membina santri SMA Islam Al Azhar 24 untuk menjadi generasi muda yang beradab dan berkarakter dalam bersosialisasi dengan umat, cerdas dan terampil dalam mengekspresikan performa diri, kritis dan percaya diri dalam mengemukakan pendapat, serta memiliki gambaran orientasi hidup yang terstruktur.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" fdprocessedid="4nrmqp" >Vision</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="2hmdmz">Mission</button>
+        
           </div>
       </div>
 
-
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start mx-auto">
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Vision</h3>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2 style="text-align: center; font-weight: bold;">Vision      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-fast-forward" viewBox="0 0 16 16">
+            </svg></h2>
             <p style="text-align: justify;">Membantu meraih ketercapaian program unggulan sekolah dengan membimbing santri untuk menjadi pribadi yang beradab, cerdas, dan kolaboratif dalam memecahkan masalah dengan berinovasi dan berprestasi, percaya diri dan objektif dalam mengemukakan gagasan, kreatif dan percaya diri dalam mengekspresikan performa diri, dan juga memiliki gambaran tujuan hidup yang terstruktur sehingga siap dalam menyusuri dan menghadapi problematika kehidupan.</p>
+           
           </div>
         </div>
-        <div class="col d-flex align-items-start mx-auto">
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Mission</h3>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2 style="text-align: center; font-weight: bold;">Mission</h2>
             <p style="text-align: justify;">Membimbing santri agar menjadi individu yang beradab, cerdas, dan kolaboratif. Kami berkomitmen untuk mengembangkan keterampilan inovatif dan prestasi, meningkatkan percaya diri dan objektivitas dalam menyampaikan ide, serta memupuk kreativitas dan rasa percaya diri dalam berbagai ekspresi. Serta membantu santri untuk merancang gambaran tujuan hidup yang terstruktur, siap menghadapi dan menyelesaikan berbagai tantangan kehidupan.</p>
+      
           </div>
         </div>
       </div>
 
 
+        <br>
+        <br>
+        <br>
 
      
         <div class="container py-5">
-          <h2 class="text-body-emphasis" style="font-size:xxx-large">شُبَّانُ الْيَوْمِ رِجَالُ الْغَدِ</h2>
+          <h2 class="text-body-emphasis" style="font-size: xxx-large">
+              <span id="typing-text"></span>
+              <span class="cursor">|</span>
+          </h2>
           <br>
           <p class="col-lg-8 mx-auto lead mt-2">
-            "Today's youth are tomorrow's leaders"
+              <span id="typing-translation"></span>
+              <span class="cursor">|</span>
           </p>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-12 mx-auto">
-              <img src="images/logo osba.png" height="100px">
-            </div>
-            <div class="col-lg-3 col-sm-12 mx-auto">
-              <img src="images/LOGO_SMAIA_24_FINISH-removebg-preview.png" height="100px">
-            </div>
-            <div class="col-lg-3 col-sm-12 mx-auto">
-              <img src="images/Logo_YPI_Al-Azhar-removebg-preview.png" height="100px">
-            </div>
-          </div>
-      <br>
-      <br>
-      <br>
-      <br>
       </div>
+      <script>
+          const arabicText = "شُبَّانُ الْيَوْمِ رِجَالُ الْغَدِ";
+          const translatedText = "Today's youth are tomorrow's leaders";
+          const typingSpeed = 150; // milliseconds per character
+          const typingDelay = 1000; // delay before typing starts
+      
+          const typingTextElement = document.getElementById('typing-text');
+          const typingTranslationElement = document.getElementById('typing-translation');
+      
+          function typeText(text, element) {
+              let index = 0;
+              const intervalId = setInterval(() => {
+                  if (index === text.length) {
+                      clearInterval(intervalId);
+                      setTimeout(() => {
+                          element.textContent = ''; // Clear the text after typing
+                          typeText(text, element); // Restart typing after a delay
+                      }, typingDelay);
+                  } else {
+                      element.textContent += text[index];
+                      index++;
+                  }
+              }, typingSpeed);
+          }
+      
+          setTimeout(() => {
+              typeText(arabicText, typingTextElement);
+              typeText(translatedText, typingTranslationElement);
+          }, typingDelay);
+      </script>
+      
 
-      <div class="p-5 text-center bg-body-tertiary" id="OSPirations">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 mx-auto">
+            <img src="images/logo osba.png" height="100px" class="logozoomin1">
+          </div>
+          <div class="col-lg-3 col-sm-12 mx-auto">
+            <img src="images/LOGO_SMAIA_24_FINISH-removebg-preview.png" height="100px" class="logozoomin1">
+          </div>
+          <div class="col-lg-3 col-sm-12 mx-auto">
+            <img src="images/Logo_YPI_Al-Azhar-removebg-preview.png" height="100px" class="logozoomin1">
+          </div>
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+      
+
+        
+
+      <div class="OSPirations p-5 text-center bg-body-tertiary" id="OSPirations">
         <h1 class="display-4 fw-bold text-body-emphasis" style="text-align: center;">OSPirations 🔊</h1>
         <p class="lead mb-4" style="text-align: center;">DesakOSBA - Dengan beraspirasi, kamu sudah membantu memperbaiki dan memperbagus OSBA, menyuarakan keadilan, dan mencegah kami dari dosa kedzhaliman!</p>
         <p class="lead">
@@ -184,15 +283,15 @@
 
       
       <div class="container">
-        <h2 class="my-4"> What's New <a href="forzaelleta-blog.html" style="font-weight: bold; color: blueviolet;">@OSMemo</a>? 🤔</h2>
+        <h2 class="my-4"> <span style="font-weight: bold;">What's New </span><a href="forzaelleta-blog.html" style="font-weight: bold;">@OSMemo</a>? 🤔</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/abc1.jpeg" alt="Card image cap">
+                    <a href="article-abc.html"><img class="card-img-top" src="images/abc1.jpeg" alt="Card image cap"></a>
                     <div class="card-body">
                         <h5 class="card-title">Al Azhar Boarding Competition 2.0</h5>
-                        <p class="card-text">OSBA in October</p>
-                        <a href="article-abc.html" class="btn btn-primary">Read More &rarr;</a>
+                        <p class="card-text">OSBA in <span style="font-weight: bold;">October</span></p>
+                    
                     </div>
                  </div>
             </div>
@@ -201,8 +300,7 @@
                     <img class="card-img-top" src="images/hariguru1.jpeg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Peringatan Hari Guru Nasional</h5>
-                        <p class="card-text">OSBA in November</p>
-                        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        <p class="card-text">OSBA in <span style="font-weight: bold;">November</span></p>
                     </div>
                  </div>
             </div>
@@ -210,9 +308,9 @@
                 <div class="card">
                     <img class="card-img-top" src="images/isramiraj1.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Peringatan Isra Mi'raj  1445 H</h5>
-                        <p class="card-text">OSBA in February.</p>
-                        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        <h5 class="card-title">Peringatan Isra Mi'raj  2024 1445 H</h5>
+                        <p class="card-text">OSBA in <span style="font-weight: bold;">February</span></p>
+                        
                     </div>
                  </div>
             </div>
